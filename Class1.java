@@ -25,17 +25,17 @@ public static boolean isValid(String s)
 {
 
     //System.out.println(s);  
-String s0 = s.substring(0,1);   // makes the code much more complicated
-String s1 = s.substring (1 , s.length());
+//String s0 = s.substring(0,1);   // makes the code much more complicated
+//String s1 = s.substring (1 , s.length());
 
 
 //"[()()()[]{}]{]}"
-    System.out.println(s0); 
-        System.out.println(s1); 
+   // System.out.println(s0); 
+    //  System.out.println(s1); 
 
     //Do work to check string
- if (s.length() == 0){
-     return true;
+ //if (s.length() == 0){
+   //  return true;
  }
 
 if(s0 == ")" || s0 == "}" || s0 == "]"){
