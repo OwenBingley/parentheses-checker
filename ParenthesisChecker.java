@@ -2,13 +2,13 @@
 // Date created: 11/9/2025
 // General description: This class checks a String to see if all
 // parentheses, brackets, and braces are opened and closed correctly.
-//
+
 public class ParenthesisChecker {
 
     
-    // Pre-condition: cant be null
+    // Pre-condition: cant be null 
     
-    // Post-condition: 
+    // Post-condition: tests to see if the code is true or false by putting it into a stack.
     
     public static boolean isValid(String s) {
         
@@ -51,8 +51,8 @@ public class ParenthesisChecker {
 
 
     
-    // Pre-condition:
-    // Post-condition: 
+    // Pre-condition: the is valid method witch runs the statments do figure out if the string is true or false.
+    // Post-condition: pints out true of false for the following strings.
     
     public static void main(String[] args) {
         System.out.println(isValid("(){}[]")); //true
